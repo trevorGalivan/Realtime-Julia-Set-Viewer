@@ -75,7 +75,7 @@ vec4 linearColour(float maxiter, float iter, float smoothIter)
     return vec4(hsv2rgb(vec3(smoothIter, iter, 1.)), 1.);
 }
 
-// All components are in the range [0…1], including hue.
+// All components are in the range [0â€¦1], including hue.
 vec3 hsv2rgb(vec3 c)
 {
     vec4 K = vec4(1.0, 2.0 / 3.0, 1.0 / 3.0, 3.0);
